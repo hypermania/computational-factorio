@@ -1,0 +1,109 @@
+{
+  "flying-fortress-equipment-grid" : {
+    "name" : "flying-fortress-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.flying-fortress-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor",
+      "aircraft"
+    ],
+    "width" : 13,
+    "height" : 12
+  },
+  "gunship-equipment-grid" : {
+    "name" : "gunship-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.gunship-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor",
+      "aircraft"
+    ],
+    "width" : 8,
+    "height" : 4
+  },
+  "jet-equipment-grid" : {
+    "name" : "jet-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.jet-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor",
+      "aircraft"
+    ],
+    "width" : 8,
+    "height" : 4
+  },
+  "large-equipment-grid" : {
+    "name" : "large-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.large-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor",
+      "armor-jetpack"
+    ],
+    "width" : 10,
+    "height" : 10
+  },
+  "larger-equipment-grid" : {
+    "name" : "larger-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.larger-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor",
+      "armor-jetpack"
+    ],
+    "width" : 14,
+    "height" : 14
+  },
+  "largest-equipment-grid" : {
+    "name" : "largest-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.largest-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor",
+      "armor-jetpack"
+    ],
+    "width" : 20,
+    "height" : 20
+  },
+  "medium-equipment-grid" : {
+    "name" : "medium-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.medium-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor",
+      "armor-jetpack"
+    ],
+    "width" : 7,
+    "height" : 7
+  },
+  "small-equipment-grid" : {
+    "name" : "small-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.small-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor",
+      "armor-jetpack"
+    ],
+    "width" : 5,
+    "height" : 5
+  },
+  "spidertron-equipment-grid" : {
+    "name" : "spidertron-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.spidertron-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor"
+    ],
+    "width" : 10,
+    "height" : 6
+  }
+}
