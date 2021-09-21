@@ -43,16 +43,8 @@ def get_entities(bp:dict, name:str):
     return entities
 
 
-balancer_file = open("balancer_16_16_blue.base64", "r", encoding="utf-8")
-balancer = decode(balancer_file.read())
-
-for entity in balancer['blueprint']['entities']:
-    if entity['name'] == 'transport-belt':
-        entity['name'] = 'express-transport-belt'
-    if entity['name'] == 'underground-belt':
-        entity['name'] = 'express-underground-belt'
-    if entity['name'] == 'splitter':
-        entity['name'] = 'express-splitter'
-
-#open('balancer_16_16_blue_new.base64', 'w', encoding='utf-8').write(encode(balancer))
-        
+def find_entity_by_coord(blueprint, x, y):
+    for ent in blueprint['blueprint']['entities']:
+        if ent['position']['x'] == x and ent['position']['y'] == y:
+            return ent
+    return None
