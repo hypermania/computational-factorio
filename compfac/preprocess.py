@@ -100,8 +100,9 @@ speed_dict = dict({m['name']:m['crafting_speed'] for m in ass_list},
                   **{m['name']:m['crafting_speed'] for m in furnace_list})
 slot_dict = dict({m['name']:m['module_inventory_size'] for m in ass_list},
                  **{m:(raw['mining-drill'][m]['module_specification']['module_slots'] if ('module_specification' in raw['mining-drill'][m]) else 0) for m in mining},
-                 **{m['name']:m['module_inventory_size'] for m in furnace_list})
-slot_dict['rocket-silo'] = raw['rocket-silo']['rocket-silo']['module_specification']['module_slots']
+                 **{m['name']:m['module_inventory_size'] for m in furnace_list},
+                 **{m['name']:m['module_specification']['module_slots'] for m in raw['rocket-silo'].values()})
+#slot_dict['rocket-silo'] = raw['rocket-silo']['rocket-silo']['module_specification']['module_slots']
 
 for r in raw['rocket-silo'].values():
     speed_dict[r['name']] = r['crafting_speed']
